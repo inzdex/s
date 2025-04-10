@@ -1,0 +1,35 @@
+body {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+canvas {
+    background-color: #1e1e1e;
+    border: 1px solid #ffffff;
+}
+
+.controls {
+    margin-top: 20px;
+}
+
+#resetButton {
+    background-color: #ff5722;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#resetButton:hover {
+    background-color: #e64a19;
+}
